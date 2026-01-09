@@ -63,11 +63,11 @@ if __name__ == "__main__":
             output_path = os.path.join(OUTPUT_DIR, "learned_loss_triggers.json")
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(learned_loss_triggers, f, ensure_ascii=False, indent=2)
-            print(f"✅ 失败触发器学习成功！结果已保存至: {output_path}")
+            print(f"失败触发器学习成功！结果已保存至: {output_path}")
             print("学到的规则内容：")
             print(json.dumps(learned_loss_triggers, ensure_ascii=False, indent=2))
         else:
-            print("❌ 败因分析未能生成有效的规则列表。")
+            print("败因分析未能生成有效的规则列表。")
 
     except FileNotFoundError:
         print(f"[错误] 未找到失败案例集: {LOSS_SET_PATH}")
@@ -92,11 +92,11 @@ if __name__ == "__main__":
             output_path = os.path.join(OUTPUT_DIR, "learned_win_patterns.json")
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(learned_win_patterns, f, ensure_ascii=False, indent=2)
-            print(f"✅ 胜利模式学习成功！结果已保存至: {output_path}")
+            print(f" 胜利模式学习成功！结果已保存至: {output_path}")
             print("学到的规则内容：")
             print(json.dumps(learned_win_patterns, ensure_ascii=False, indent=2))
         else:
-            print("❌ 胜决因素分析未能生成有效的规则列表。")
+            print("胜决因素分析未能生成有效的规则列表。")
 
     except FileNotFoundError:
         print(f"[错误] 未找到成功案例集: {WIN_SET_PATH}")

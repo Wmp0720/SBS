@@ -3,6 +3,7 @@
 """
 知识问答维度SBS裁判模型集成
 专门处理知识问答维度的特殊评估逻辑，包括信息源检测和事实性验证
+这是一个专门用于知识问答维度评估的裁判类，它实现了知识问答场景下的特殊评估逻辑，包括信息源检测和事实性验证。
 """
 
 import json
@@ -17,6 +18,7 @@ import logging
 # 导入现有模块
 from utils.vivo_model import vivo_GPT
 from utils.source_checker import SourceChecker, create_knowledge_qa_sbs_prompt
+#  SourceChecker:大模型回答多样性多源验证类，create_knowledge_qa_sbs_prompt:创建知识问答维度SBS验证prompt，对自研和竞品都进行验证
 
 logger = logging.getLogger(__name__)
 
