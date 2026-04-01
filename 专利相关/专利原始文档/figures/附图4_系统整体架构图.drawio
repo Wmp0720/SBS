@@ -1,0 +1,231 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="4" version="21.0.0" type="device">
+  <diagram id="system-architecture" name="系统整体架构图">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 标题 -->
+        <mxCell id="title" value="附图4：基于评测尺度自校准与分阶段裁决的多模型对比评测系统架构图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="15" width="800" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- 数据输入层 -->
+        <mxCell id="input_layer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="150" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="input_title" value="数据输入层" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="55" y="70" width="120" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="golden_data" value="精标数据集" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="user_question" value="用户问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="110" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="model_a" value="自研模型回答" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="110" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="model_b" value="竞品模型回答" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="110" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="scene_config" value="场景配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="110" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="history_data" value="历史评测数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- 核心处理层 -->
+        <mxCell id="core_layer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="780" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="core_title" value="核心处理层" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="530" y="65" width="140" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- 评测尺度自校准模块 -->
+        <mxCell id="calibration_module" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="220" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="calibration_title" value="评测尺度自校准模块" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="260" y="105" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="feature_learn" value="尺度特征学习" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="245" y="135" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="rule_extract" value="规则自动提取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="345" y="135" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kb_win_small" value="胜利模式&#xa;知识库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="245" y="175" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="kb_loss_small" value="失败触发器&#xa;知识库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="345" y="175" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="constraint_output" value="评测尺度约束信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="140" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 思维链标注链路 -->
+        <mxCell id="chain_module" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="500" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="chain_title" value="思维链递进式标注链路" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="105" width="160" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- 四个阶段 -->
+        <mxCell id="stage1_small" value="单模型&#xa;结构化标注" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="485" y="135" width="80" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage2_small" value="双模型&#xa;事实归档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="580" y="135" width="80" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage3_small" value="双模型&#xa;对比评估" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="675" y="135" width="80" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage4_small" value="多维度&#xa;裁决推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="770" y="135" width="80" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- 阶段间箭头 -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="157" as="sourcePoint"/>
+            <mxPoint x="580" y="157" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="157" as="sourcePoint"/>
+            <mxPoint x="675" y="157" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="157" as="sourcePoint"/>
+            <mxPoint x="770" y="157" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- LLM引擎 -->
+        <mxCell id="llm_engine" value="大语言模型引擎" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="190" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- 规则引擎 -->
+        <mxCell id="rule_engine" value="规则映射引擎" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="190" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- 流程保障模块 -->
+        <mxCell id="support_module" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="740" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="support_title" value="流程保障模块" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="285" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="parallel" value="并行处理机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="checkpoint" value="断点续评机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="trace" value="数据追溯机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="extend" value="扩展适配机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="storage_small" value="结构化存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="audit" value="合规审计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="850" y="315" width="100" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- 输出层 -->
+        <mxCell id="output_layer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="950" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="output_title" value="结果输出层" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="465" width="150" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="decision_result" value="裁决结果&#xa;（胜/平/负）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="annotation_result" value="结构化标注结果&#xa;（问题标签+优势）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="archive_result" value="事实归档档案&#xa;（JSON结构化）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="compare_result" value="对比分析报告&#xa;（多维度对比）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="trace_result" value="推理证据链&#xa;（可追溯）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="660" y="500" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="excel_export" value="Excel导出&#xa;（完整记录）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="810" y="500" width="130" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- 连接箭头 -->
+        <mxCell id="arrow_input_core" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="sourcePoint"/>
+            <mxPoint x="210" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow_calibration_chain" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="180" as="sourcePoint"/>
+            <mxPoint x="470" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow_core_output" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="440" as="sourcePoint"/>
+            <mxPoint x="600" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 应用场景层 -->
+        <mxCell id="app_layer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="950" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="app_title" value="应用场景扩展" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="605" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="app1" value="智能问答评测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app2" value="内容生成评测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app3" value="多模态评测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app4" value="医疗/金融垂类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app5" value="Agent路径评测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app6" value="跨语言评测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app7" value="模型迭代优化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="790" y="640" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="app8" value="合规审计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="640" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
