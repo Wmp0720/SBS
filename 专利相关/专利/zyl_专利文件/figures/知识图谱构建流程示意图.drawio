@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="Y16-jFtH7N8ZscqfwWJK">
+    <mxGraphModel dx="998" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;fillColor=#ffffff;fontColor=#333333;fontSize=14;" value="&lt;b&gt;研究报告文本&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="530" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#b3b3b3;verticalAlign=top;spacingTop=10;fontColor=#333333;fontSize=13;" value="事实提取子系统" vertex="1">
+          <mxGeometry height="120" width="680" x="270" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="文本分块处理" vertex="1">
+          <mxGeometry height="50" width="160" x="310" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="LLM事实提取" vertex="1">
+          <mxGeometry height="50" width="160" x="530" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="事实分类与规范化" vertex="1">
+          <mxGeometry height="50" width="160" x="750" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#b3b3b3;verticalAlign=top;spacingTop=10;fontColor=#333333;fontSize=13;" value="推理识别子系统" vertex="1">
+          <mxGeometry height="120" width="680" x="270" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="LLM推理关系识别" vertex="1">
+          <mxGeometry height="50" width="160" x="310" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="推理类型分类" vertex="1">
+          <mxGeometry height="50" width="160" x="530" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="前提-结论映射" vertex="1">
+          <mxGeometry height="50" width="160" x="750" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#b3b3b3;verticalAlign=top;spacingTop=10;fontColor=#333333;fontSize=13;" value="图谱构建子系统" vertex="1">
+          <mxGeometry height="120" width="680" x="270" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="节点与边构建" vertex="1">
+          <mxGeometry height="50" width="160" x="310" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="图谱优化&lt;br&gt;去重/合并" vertex="1">
+          <mxGeometry height="60" width="160" x="530" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#333333;" value="知识图谱存储" vertex="1">
+          <mxGeometry height="50" width="160" x="750" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;fillColor=#ffffff;fontColor=#333333;fontSize=14;" value="&lt;b&gt;结构化知识图谱&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="530" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-15" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-16" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-17" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-18" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-19" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-20" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-21" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-22" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-23" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-24" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

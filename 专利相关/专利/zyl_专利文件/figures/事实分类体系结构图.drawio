@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="Y16-jFtH7N8ZscqfwWJK">
+    <mxGraphModel dx="778" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5eef8;strokeColor=#54278f;strokeWidth=2;fontColor=#333333;fontSize=14;" value="事实分类体系" vertex="1">
+          <mxGeometry height="50" width="160" x="820" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf5e8;strokeColor=#316b35;strokeWidth=2;fontColor=#333333;fontSize=13;" value="背景/常识事实" vertex="1">
+          <mxGeometry height="50" width="140" x="470" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf5e8;strokeColor=#316b35;strokeWidth=2;fontColor=#333333;fontSize=13;" value="方法/过程事实" vertex="1">
+          <mxGeometry height="50" width="140" x="650" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf5e8;strokeColor=#316b35;strokeWidth=2;fontColor=#333333;fontSize=13;" value="数据事实" vertex="1">
+          <mxGeometry height="50" width="140" x="830" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf5e8;strokeColor=#316b35;strokeWidth=2;fontColor=#333333;fontSize=13;" value="发现/现象事实" vertex="1">
+          <mxGeometry height="50" width="140" x="1010" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf5e8;strokeColor=#316b35;strokeWidth=2;fontColor=#333333;fontSize=13;" value="结论/论断事实" vertex="1">
+          <mxGeometry height="50" width="140" x="1190" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-31" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-25" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-32" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-25" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.35;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-33" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-25" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-34" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-25" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.65;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-35" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-25" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

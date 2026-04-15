@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="Y16-jFtH7N8ZscqfwWJK">
+    <mxGraphModel dx="-49" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=13;" value="评估指标体系" vertex="1">
+          <mxGeometry height="40" width="160" x="1440" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=13;" value="全面性评估指标" vertex="1">
+          <mxGeometry height="40" width="160" x="1110" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=13;" value="深度评估指标" vertex="1">
+          <mxGeometry height="40" width="160" x="1790" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="知识容量与密度" vertex="1">
+          <mxGeometry height="40" width="160" x="910" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="知识多样性" vertex="1">
+          <mxGeometry height="40" width="160" x="1110" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="知识创新性" vertex="1">
+          <mxGeometry height="40" width="160" x="1310" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="推理链结构" vertex="1">
+          <mxGeometry height="40" width="160" x="1590" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="推理网络密度与复杂度" vertex="1">
+          <mxGeometry height="40" width="160" x="1790" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;" value="推理质量" vertex="1">
+          <mxGeometry height="40" width="160" x="1990" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;知识容量&lt;/li&gt;&lt;li&gt;知识密度&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="910" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;事实类型多样性&lt;/li&gt;&lt;li&gt;主题覆盖广度&lt;/li&gt;&lt;li&gt;事实类型分布均衡度&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1100" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;创新性事实比例&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="45" width="160" x="1310" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;最大推理深度&lt;/li&gt;&lt;li&gt;平均推理深度&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1590" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;推理密度&lt;/li&gt;&lt;li&gt;平均论证支撑度&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1790" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;align=left;verticalAlign=middle;fontSize=12;" value="&lt;ul style=&quot;margin:0px;padding-left:25px;line-height:1.8;&quot;&gt;&lt;li&gt;高强度推理比例&lt;/li&gt;&lt;li&gt;推理类型多样性&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1990" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-64" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-49" style="html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-65" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-49" style="html=1;strokeColor=#666666;endArrow=block;" target="x4rC7Fruw1xlBIq4ED4A-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-66" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-50" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-67" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-50" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-68" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-50" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-69" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-51" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-70" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-51" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-71" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-51" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-72" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-52" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-73" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-53" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-74" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-54" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-75" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-55" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-76" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-56" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4rC7Fruw1xlBIq4ED4A-77" edge="1" parent="1" source="x4rC7Fruw1xlBIq4ED4A-57" style="html=1;strokeColor=#666666;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="x4rC7Fruw1xlBIq4ED4A-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
